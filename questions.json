@@ -1,0 +1,546 @@
+[
+  {
+    "id": "RT001",
+    "area": "Clínica Médica",
+    "topic": "Insuficiência cardíaca",
+    "difficulty": "Média",
+    "stem": "Homem de 68 anos apresenta dispneia aos esforços, ortopneia e edema de membros inferiores. Ecocardiograma mostra fração de ejeção de 30%. Está hemodinamicamente estável e sem congestão importante após diurético. Qual conjunto de fármacos modifica prognóstico na insuficiência cardíaca com fração de ejeção reduzida?",
+    "options": [
+      "A) Digoxina, furosemida e nitrato.",
+      "B) IECA/ARNI, betabloqueador com evidência, antagonista mineralocorticoide e inibidor de SGLT2.",
+      "C) Verapamil, hidroclorotiazida e AAS.",
+      "D) Amiodarona, nitrato e bloqueador de canal de cálcio.",
+      "E) Apenas diurético de alça."
+    ],
+    "answer": 1,
+    "explanation": "Na ICFEr, os quatro pilares modificadores de prognóstico são bloqueio do sistema renina-angiotensina (preferencialmente ARNI quando indicado), betabloqueador validado, antagonista mineralocorticoide e inibidor de SGLT2. Diuréticos aliviam congestão, mas não substituem os pilares.",
+    "source": "Autoral · Residência Tracker"
+  },
+  {
+    "id": "RT002",
+    "area": "Clínica Médica",
+    "topic": "Síndrome coronariana aguda",
+    "difficulty": "Média",
+    "stem": "Mulher de 59 anos chega com dor torácica opressiva há 50 minutos. ECG evidencia supradesnivelamento de ST em V2-V5. Está em hospital com hemodinâmica disponível, e o tempo estimado até reperfusão por angioplastia é de 70 minutos. Qual é a estratégia preferencial?",
+    "options": [
+      "A) Observação e troponina em 6 horas.",
+      "B) Fibrinólise obrigatória antes da transferência.",
+      "C) Angioplastia coronária primária.",
+      "D) Teste ergométrico após analgesia.",
+      "E) Anticoagulação isolada."
+    ],
+    "answer": 2,
+    "explanation": "No IAM com supra de ST, a angioplastia primária é a estratégia preferencial quando pode ser realizada em tempo adequado (em geral, até 120 minutos do diagnóstico/primeiro contato, conforme cenário e diretriz).",
+    "source": "Autoral · Residência Tracker"
+  },
+  {
+    "id": "RT003",
+    "area": "Clínica Médica",
+    "topic": "Diabetes mellitus",
+    "difficulty": "Fácil",
+    "stem": "Paciente com diabetes tipo 2, doença renal crônica e taxa de filtração glomerular estimada de 48 mL/min/1,73 m² apresenta albuminúria persistente apesar de controle pressórico. Qual classe farmacológica oferece proteção cardiorrenal e deve ser considerada, se não houver contraindicação?",
+    "options": [
+      "A) Sulfonilureia.",
+      "B) Inibidor de SGLT2.",
+      "C) Inibidor de DPP-4 como única estratégia nefroprotetora.",
+      "D) Acarbose.",
+      "E) Insulina regular em dose fixa."
+    ],
+    "answer": 1,
+    "explanation": "Inibidores de SGLT2 reduzem progressão da doença renal e eventos cardiovasculares em pessoas com diabetes tipo 2 e DRC, mesmo quando o efeito glicêmico diminui com a queda da TFG. A indicação depende da TFG, bula e contexto clínico.",
+    "source": "Autoral · Residência Tracker"
+  },
+  {
+    "id": "RT004",
+    "area": "Clínica Médica",
+    "topic": "Distúrbios hidroeletrolíticos",
+    "difficulty": "Média",
+    "stem": "Homem de 72 anos em uso de hidroclorotiazida apresenta confusão mental. Sódio sérico de 118 mEq/L, sem convulsões ou sinais de herniação. A hiponatremia é considerada crônica. Qual princípio deve orientar a correção?",
+    "options": [
+      "A) Normalizar o sódio nas primeiras 2 horas.",
+      "B) Corrigir lentamente, evitando elevação excessiva em 24 horas.",
+      "C) Restringir água e administrar solução hipotônica.",
+      "D) Administrar solução glicosada hipertônica.",
+      "E) Não monitorar sódio durante o tratamento."
+    ],
+    "answer": 1,
+    "explanation": "Na hiponatremia crônica, a correção rápida pode causar síndrome de desmielinização osmótica. Em geral, limita-se a elevação a cerca de 8 mEq/L em 24 horas (limites menores em alto risco), com monitorização seriada e tratamento individualizado.",
+    "source": "Autoral · Residência Tracker"
+  },
+  {
+    "id": "RT005",
+    "area": "Clínica Médica",
+    "topic": "Pneumonia adquirida na comunidade",
+    "difficulty": "Fácil",
+    "stem": "Homem de 34 anos, previamente hígido, apresenta febre, tosse produtiva e dor pleurítica. Está lúcido, PA 122/76 mmHg, FR 18 irpm, SatO₂ 97% em ar ambiente, sem comorbidades ou incapacidade de ingerir medicação. Qual local de tratamento é mais apropriado, após avaliação clínica completa?",
+    "options": [
+      "A) UTI.",
+      "B) Internação obrigatória em enfermaria.",
+      "C) Tratamento ambulatorial com orientação e reavaliação.",
+      "D) Observação hospitalar por 72 horas em todos os casos.",
+      "E) Apenas suporte, sem antimicrobiano."
+    ],
+    "answer": 2,
+    "explanation": "Paciente jovem, estável, sem hipoxemia ou comorbidades relevantes pode ser tratado ambulatorialmente, desde que avaliação de gravidade (por exemplo, CURB-65/PSI), suporte domiciliar e seguimento sejam adequados.",
+    "source": "Autoral · Residência Tracker"
+  },
+  {
+    "id": "RT006",
+    "area": "Cirurgia",
+    "topic": "Abdome agudo",
+    "difficulty": "Média",
+    "stem": "Homem de 22 anos apresenta dor inicialmente periumbilical que migrou para fossa ilíaca direita, anorexia e febre baixa. Há dor à descompressão brusca localizada. Qual é a hipótese mais provável?",
+    "options": [
+      "A) Colecistite aguda.",
+      "B) Apendicite aguda.",
+      "C) Pancreatite aguda.",
+      "D) Diverticulite sigmoide.",
+      "E) Obstrução intestinal alta."
+    ],
+    "answer": 1,
+    "explanation": "A migração da dor periumbilical para fossa ilíaca direita, associada a anorexia e sinais de irritação peritoneal localizada, é apresentação clássica de apendicite aguda.",
+    "source": "Autoral · Residência Tracker"
+  },
+  {
+    "id": "RT007",
+    "area": "Cirurgia",
+    "topic": "Trauma",
+    "difficulty": "Média",
+    "stem": "Vítima de colisão automobilística chega hipotensa, taquicárdica e com abdome distendido. FAST demonstra líquido livre intraperitoneal. Mantém instabilidade apesar de medidas iniciais de ressuscitação. Qual conduta é prioritária?",
+    "options": [
+      "A) Tomografia computadorizada com contraste.",
+      "B) Laparotomia exploradora após abordagem inicial simultânea.",
+      "C) Colonoscopia de urgência.",
+      "D) Observação por 6 horas.",
+      "E) Alta após analgesia."
+    ],
+    "answer": 1,
+    "explanation": "No trauma abdominal fechado com instabilidade hemodinâmica e FAST positivo, há indicação de controle cirúrgico imediato da hemorragia. Tomografia é reservada ao paciente suficientemente estável.",
+    "source": "Autoral · Residência Tracker"
+  },
+  {
+    "id": "RT008",
+    "area": "Cirurgia",
+    "topic": "Pós-operatório",
+    "difficulty": "Fácil",
+    "stem": "No primeiro dia após cirurgia abdominal, paciente apresenta febre de 37,8 °C, sem foco, estável e com exame físico sem alterações relevantes. Qual interpretação é mais adequada?",
+    "options": [
+      "A) Toda febre pós-operatória exige antibiótico de amplo espectro.",
+      "B) Febre precoce pode decorrer da resposta inflamatória ao trauma cirúrgico; investigar conforme clínica.",
+      "C) É diagnóstico de pneumonia hospitalar.",
+      "D) É sempre infecção de sítio cirúrgico.",
+      "E) Deve-se solicitar tomografia de corpo inteiro."
+    ],
+    "answer": 1,
+    "explanation": "Febre nas primeiras 24–48 horas pode ser resposta inflamatória não infecciosa. A avaliação deve ser guiada por gravidade, sintomas, fatores de risco e exame; não se indica antibiótico indiscriminado.",
+    "source": "Autoral · Residência Tracker"
+  },
+  {
+    "id": "RT009",
+    "area": "Cirurgia",
+    "topic": "Hérnias da parede abdominal",
+    "difficulty": "Média",
+    "stem": "Homem de 70 anos apresenta hérnia inguinal dolorosa, irreduzível, com vômitos e sinais de obstrução intestinal. Qual é a principal preocupação e conduta?",
+    "options": [
+      "A) Hérnia simples; orientar observação domiciliar.",
+      "B) Encarceramento/estrangulamento; avaliação cirúrgica urgente.",
+      "C) Indicar apenas cinta abdominal.",
+      "D) Realizar colonoscopia eletiva.",
+      "E) Prescrever laxativo e reavaliar em um mês."
+    ],
+    "answer": 1,
+    "explanation": "Hérnia irreduzível associada a dor e obstrução sugere encarceramento, com risco de estrangulamento e isquemia intestinal. Exige avaliação cirúrgica urgente, sem atrasar por tentativas repetidas de redução em cenário suspeito.",
+    "source": "Autoral · Residência Tracker"
+  },
+  {
+    "id": "RT010",
+    "area": "Cirurgia",
+    "topic": "Profilaxia antimicrobiana cirúrgica",
+    "difficulty": "Fácil",
+    "stem": "Em cirurgia limpa com colocação de prótese, qual é o princípio correto da profilaxia antimicrobiana?",
+    "options": [
+      "A) Manter antibiótico por 14 dias em todos os pacientes.",
+      "B) Administrar agente adequado antes da incisão, garantindo concentração tecidual no momento da cirurgia.",
+      "C) Iniciar somente após o fechamento da pele.",
+      "D) Usar sempre dois antibióticos de amplo espectro.",
+      "E) Substituir antissepsia por antibiótico."
+    ],
+    "answer": 1,
+    "explanation": "A profilaxia deve atingir níveis teciduais adequados no momento da incisão; em geral é administrada até 60 minutos antes (fármacos com infusão prolongada podem exigir janela maior). Redose depende da duração e perda sanguínea; prolongamento rotineiro não é recomendado.",
+    "source": "Autoral · Residência Tracker"
+  },
+  {
+    "id": "RT011",
+    "area": "Pediatria",
+    "topic": "Febre sem sinais de gravidade",
+    "difficulty": "Fácil",
+    "stem": "Lactente de 10 meses apresenta febre há 24 horas, está ativo, hidratado, sem desconforto respiratório e com exame físico sem foco. Qual é a conduta inicial mais apropriada?",
+    "options": [
+      "A) Antibiótico empírico para todos os lactentes febris.",
+      "B) Avaliar idade, estado geral, vacinação e sinais de alarme; orientar antitérmico para conforto e reavaliação.",
+      "C) Solicitar tomografia de crânio.",
+      "D) Internar obrigatoriamente.",
+      "E) Alternar antitérmicos em horários fixos, mesmo afebril."
+    ],
+    "answer": 1,
+    "explanation": "A abordagem da febre depende da faixa etária e do risco. Em criança maior, bem-disposta e sem sinais de gravidade, priorizam-se avaliação clínica, orientação de sinais de alarme, hidratação e antitérmico para desconforto, com reavaliação se persistência ou piora.",
+    "source": "Autoral · Residência Tracker"
+  },
+  {
+    "id": "RT012",
+    "area": "Pediatria",
+    "topic": "Bronquiolite",
+    "difficulty": "Média",
+    "stem": "Lactente de 5 meses apresenta coriza seguida de tosse, sibilância difusa e taquipneia. Está hidratado, SatO₂ 95% em ar ambiente e sem apneia. Qual tratamento é recomendado na maioria dos casos?",
+    "options": [
+      "A) Corticoide sistêmico de rotina.",
+      "B) Broncodilatador em horário fixo para todos.",
+      "C) Medidas de suporte, higiene nasal, hidratação e monitorização.",
+      "D) Antibiótico macrolídeo.",
+      "E) Fisioterapia respiratória vigorosa de rotina."
+    ],
+    "answer": 2,
+    "explanation": "Bronquiolite viral é tratada principalmente com suporte: hidratação, higiene nasal e oxigênio se hipoxemia persistente conforme protocolo. Corticoides, broncodilatadores e antibióticos não são recomendados rotineiramente.",
+    "source": "Autoral · Residência Tracker"
+  },
+  {
+    "id": "RT013",
+    "area": "Pediatria",
+    "topic": "Desidratação aguda",
+    "difficulty": "Média",
+    "stem": "Criança de 2 anos com diarreia apresenta irritabilidade, olhos fundos, sede intensa e prega cutânea com retorno lento. Está alerta e consegue beber. Qual plano de reidratação é mais indicado?",
+    "options": [
+      "A) Plano A, sem reposição adicional.",
+      "B) Plano B, com solução de reidratação oral supervisionada.",
+      "C) Plano C intravenoso obrigatório em todos os casos.",
+      "D) Suspender alimentação e líquidos por 24 horas.",
+      "E) Antidiarreico opioide."
+    ],
+    "answer": 1,
+    "explanation": "Sinais compatíveis com desidratação sem choque e com capacidade de ingerir líquidos indicam reidratação oral supervisionada (Plano B), com reavaliação clínica. Choque ou incapacidade de beber exigem abordagem venosa urgente.",
+    "source": "Autoral · Residência Tracker"
+  },
+  {
+    "id": "RT014",
+    "area": "Pediatria",
+    "topic": "Crescimento e desenvolvimento",
+    "difficulty": "Fácil",
+    "stem": "Menino de 18 meses caminha sem apoio, aponta para mostrar interesse, fala algumas palavras e segue comandos simples. A família relata interação social adequada. Qual interpretação é mais apropriada?",
+    "options": [
+      "A) Esses achados isolados confirmam transtorno do espectro autista.",
+      "B) Desenvolvimento descrito é compatível com marcos esperados, devendo-se manter vigilância e rastreios periódicos.",
+      "C) Há atraso motor grave.",
+      "D) A ausência de frases completas indica atraso obrigatório.",
+      "E) Não é necessário avaliar desenvolvimento após 1 ano."
+    ],
+    "answer": 1,
+    "explanation": "Marcha independente, gestos declarativos, palavras e compreensão de comandos simples são compatíveis com marcos esperados nessa faixa etária. Vigilância longitudinal e instrumentos de rastreio continuam necessários; nenhum marco isolado confirma ou exclui TEA.",
+    "source": "Autoral · Residência Tracker"
+  },
+  {
+    "id": "RT015",
+    "area": "Pediatria",
+    "topic": "Asma na infância",
+    "difficulty": "Média",
+    "stem": "Criança de 7 anos chega ao pronto atendimento com crise asmática, fala frases curtas, tiragem intercostal e SatO₂ 91% em ar ambiente. Qual abordagem inicial é mais adequada?",
+    "options": [
+      "A) Apenas antibiótico e alta.",
+      "B) Oxigênio para corrigir hipoxemia, beta-2 agonista inalatório repetido e corticoide sistêmico precoce conforme gravidade.",
+      "C) Sedação para reduzir consumo de oxigênio.",
+      "D) Antitussígeno e observação domiciliar.",
+      "E) Restrição hídrica e diurético."
+    ],
+    "answer": 1,
+    "explanation": "Crise moderada a grave exige avaliação imediata, oxigênio se hipoxemia, beta-2 agonista inalatório repetido (com ou sem ipratrópio conforme gravidade) e corticoide sistêmico precoce. Reavaliar resposta e necessidade de internação.",
+    "source": "Autoral · Residência Tracker"
+  },
+  {
+    "id": "RT016",
+    "area": "Ginecologia e Obstetrícia",
+    "topic": "Pré-eclâmpsia",
+    "difficulty": "Média",
+    "stem": "Gestante de 32 semanas apresenta PA 168/112 mmHg confirmada, cefaleia persistente e proteinúria. Qual medida é prioritária, além da avaliação materno-fetal e planejamento do parto?",
+    "options": [
+      "A) Aguardar 48 horas sem tratamento para confirmar tendência.",
+      "B) Controlar hipertensão grave aguda e administrar sulfato de magnésio para prevenção de eclâmpsia.",
+      "C) Prescrever apenas repouso domiciliar.",
+      "D) Iniciar diurético tiazídico de rotina.",
+      "E) Indicar tocolítico como tratamento definitivo."
+    ],
+    "answer": 1,
+    "explanation": "Hipertensão grave persistente na gestação é emergência: tratar prontamente para reduzir risco de AVC materno. Sulfato de magnésio é indicado para profilaxia de convulsões em pré-eclâmpsia com sinais de gravidade. Momento do parto depende da idade gestacional e estabilidade.",
+    "source": "Autoral · Residência Tracker"
+  },
+  {
+    "id": "RT017",
+    "area": "Ginecologia e Obstetrícia",
+    "topic": "Hemorragia pós-parto",
+    "difficulty": "Fácil",
+    "stem": "Após parto vaginal, puérpera apresenta sangramento abundante e útero amolecido à palpação. Qual é a causa mais provável e a medida inicial?",
+    "options": [
+      "A) Laceração cervical; aguardar involução uterina.",
+      "B) Atonia uterina; massagem uterina e uterotônico, com abordagem simultânea da hemorragia.",
+      "C) Coagulopatia hereditária; observar.",
+      "D) Retenção urinária; sondagem como única medida.",
+      "E) Endometrite; antibiótico oral e alta."
+    ],
+    "answer": 1,
+    "explanation": "Atonia uterina é causa frequente de hemorragia pós-parto. Massagem uterina, ocitocina e protocolo de hemorragia (acesso venoso, reposição, ácido tranexâmico quando indicado e investigação das 4 Ts) devem ocorrer sem demora.",
+    "source": "Autoral · Residência Tracker"
+  },
+  {
+    "id": "RT018",
+    "area": "Ginecologia e Obstetrícia",
+    "topic": "Rastreamento do câncer do colo do útero",
+    "difficulty": "Média",
+    "stem": "Mulher de 32 anos, assintomática, imunocompetente, com colo uterino presente e sem histórico de lesão de alto grau, procura orientação sobre rastreamento. Qual princípio deve orientar a recomendação?",
+    "options": [
+      "A) Realizar colposcopia anual em todas as mulheres.",
+      "B) Seguir a estratégia vigente no sistema de saúde local, considerando faixa etária, teste disponível e intervalo recomendado.",
+      "C) Solicitar citologia a cada 3 meses.",
+      "D) Rastrear apenas se houver corrimento.",
+      "E) Não realizar rastreamento antes dos 50 anos."
+    ],
+    "answer": 1,
+    "explanation": "O rastreamento é destinado a pessoas assintomáticas e segue faixa etária, método e periodicidade definidos pelas diretrizes nacionais vigentes. A transição para teste de HPV pode alterar intervalos; verificar protocolo local atualizado.",
+    "source": "Autoral · Residência Tracker"
+  },
+  {
+    "id": "RT019",
+    "area": "Ginecologia e Obstetrícia",
+    "topic": "Gestação ectópica",
+    "difficulty": "Média",
+    "stem": "Mulher de 27 anos, atraso menstrual de 7 semanas, dor pélvica unilateral e sangramento vaginal. Está hipotensa, taquicárdica e com sinais de irritação peritoneal. Qual é a conduta?",
+    "options": [
+      "A) Metotrexato ambulatorial.",
+      "B) Aguardar beta-hCG seriado por 7 dias.",
+      "C) Ressuscitação e abordagem cirúrgica urgente por suspeita de ectópica rota.",
+      "D) Alta com analgésico.",
+      "E) Induzir aborto medicamentoso sem avaliação."
+    ],
+    "answer": 2,
+    "explanation": "Instabilidade hemodinâmica e sinais peritoneais em paciente com possibilidade de gestação exigem suspeita de ectópica rota. Ressuscitação e tratamento cirúrgico urgente são prioritários; metotrexato é reservado a pacientes estáveis e criteriosamente selecionadas.",
+    "source": "Autoral · Residência Tracker"
+  },
+  {
+    "id": "RT020",
+    "area": "Ginecologia e Obstetrícia",
+    "topic": "Diabetes gestacional",
+    "difficulty": "Fácil",
+    "stem": "Gestante de 26 semanas apresenta teste oral de tolerância à glicose de 75 g com glicemia de jejum 93 mg/dL, 1 hora 176 mg/dL e 2 horas 148 mg/dL. Considerando os pontos de corte usuais de 92, 180 e 153 mg/dL, qual interpretação é correta?",
+    "options": [
+      "A) Exame normal, pois todos os valores estão abaixo de 200 mg/dL.",
+      "B) Diabetes mellitus gestacional, pois um valor igual ou acima do ponto de corte é suficiente.",
+      "C) Diabetes prévio manifesto.",
+      "D) Necessita repetir o exame apenas no puerpério.",
+      "E) Hipoglicemia gestacional."
+    ],
+    "answer": 1,
+    "explanation": "No TOTG 75 g, os pontos de corte usuais são 92 mg/dL (jejum), 180 (1h) e 153 (2h); um único valor igual ou superior permite diagnóstico de diabetes gestacional. O valor de jejum de 93 ultrapassa o corte.",
+    "source": "Autoral · Residência Tracker"
+  },
+  {
+    "id": "RT021",
+    "area": "Preventiva",
+    "topic": "Medidas de associação",
+    "difficulty": "Fácil",
+    "stem": "Em uma coorte, 40 de 1.000 expostos desenvolveram a doença e 10 de 1.000 não expostos desenvolveram a doença. Qual é o risco relativo?",
+    "options": [
+      "A) 0,25.",
+      "B) 2.",
+      "C) 4.",
+      "D) 10.",
+      "E) 40."
+    ],
+    "answer": 2,
+    "explanation": "Risco nos expostos = 40/1000 = 0,04. Risco nos não expostos = 10/1000 = 0,01. RR = 0,04/0,01 = 4.",
+    "source": "Autoral · Residência Tracker"
+  },
+  {
+    "id": "RT022",
+    "area": "Preventiva",
+    "topic": "Testes diagnósticos",
+    "difficulty": "Fácil",
+    "stem": "Um teste é positivo em 90 de 100 pessoas com a doença confirmada pelo padrão-ouro. Qual é a sensibilidade?",
+    "options": [
+      "A) 10%.",
+      "B) 50%.",
+      "C) 90%.",
+      "D) 95%.",
+      "E) 100%."
+    ],
+    "answer": 2,
+    "explanation": "Sensibilidade = verdadeiros positivos / total de doentes. Neste caso, 90/100 = 90%. É a capacidade do teste de identificar corretamente quem tem a doença.",
+    "source": "Autoral · Residência Tracker"
+  },
+  {
+    "id": "RT023",
+    "area": "Preventiva",
+    "topic": "Intervalo de confiança",
+    "difficulty": "Média",
+    "stem": "Estudo estima risco relativo de 1,4, com intervalo de confiança de 95% entre 0,9 e 2,1. Qual interpretação é correta?",
+    "options": [
+      "A) Associação estatisticamente significativa, pois RR é maior que 1.",
+      "B) Não há significância estatística ao nível de 5%, pois o intervalo inclui o valor nulo 1.",
+      "C) A hipótese nula foi comprovada.",
+      "D) O risco relativo real é necessariamente 1,4.",
+      "E) O estudo não possui validade."
+    ],
+    "answer": 1,
+    "explanation": "Para medidas relativas como RR, OR e HR, o valor nulo é 1. Como o IC95% inclui 1, não se rejeita a hipótese nula ao nível de 5%; isso não prova ausência de associação.",
+    "source": "Autoral · Residência Tracker"
+  },
+  {
+    "id": "RT024",
+    "area": "Preventiva",
+    "topic": "Níveis de prevenção",
+    "difficulty": "Fácil",
+    "stem": "Uma unidade de saúde promove vacinação contra influenza em idosos antes do período sazonal. Essa ação corresponde principalmente à prevenção:",
+    "options": [
+      "A) Primária.",
+      "B) Secundária.",
+      "C) Terciária.",
+      "D) Quaternária.",
+      "E) Reabilitação."
+    ],
+    "answer": 0,
+    "explanation": "A vacinação busca evitar a ocorrência da doença, caracterizando prevenção primária.",
+    "source": "Autoral · Residência Tracker"
+  },
+  {
+    "id": "RT025",
+    "area": "Preventiva",
+    "topic": "Sistema Único de Saúde",
+    "difficulty": "Fácil",
+    "stem": "Uma equipe adapta o plano de cuidado às necessidades distintas de pessoas com diferentes vulnerabilidades, destinando mais recursos a quem mais precisa. Qual princípio do SUS está mais diretamente relacionado?",
+    "options": [
+      "A) Universalidade.",
+      "B) Equidade.",
+      "C) Descentralização.",
+      "D) Regionalização.",
+      "E) Participação complementar."
+    ],
+    "answer": 1,
+    "explanation": "Equidade significa reconhecer necessidades diferentes e oferecer cuidado proporcional a elas, buscando reduzir desigualdades injustas. Universalidade garante acesso a todos; integralidade articula ações e níveis de cuidado.",
+    "source": "Autoral · Residência Tracker"
+  },
+  {
+    "id": "RT026",
+    "area": "Preventiva",
+    "topic": "Atenção Primária à Saúde",
+    "difficulty": "Média",
+    "stem": "Uma equipe de Saúde da Família acompanha uma pessoa com diabetes ao longo de vários anos, coordena encaminhamentos e mantém vínculo com a família e o território. Qual atributo essencial da APS está mais diretamente exemplificado pelo acompanhamento contínuo?",
+    "options": [
+      "A) Longitudinalidade.",
+      "B) Atenção episódica.",
+      "C) Centralização hospitalar.",
+      "D) Seletividade.",
+      "E) Exclusividade de ações preventivas."
+    ],
+    "answer": 0,
+    "explanation": "Longitudinalidade é a relação terapêutica duradoura entre equipe e usuário ao longo do tempo, favorecendo vínculo, conhecimento do contexto e continuidade do cuidado.",
+    "source": "Autoral · Residência Tracker"
+  },
+  {
+    "id": "RT027",
+    "area": "Preventiva",
+    "topic": "Vigilância epidemiológica",
+    "difficulty": "Média",
+    "stem": "Médica identifica caso suspeito de doença de notificação compulsória na unidade. Qual é o objetivo central da notificação e investigação epidemiológica?",
+    "options": [
+      "A) Punir o paciente por transmissão.",
+      "B) Produzir informação para detectar, monitorar e orientar medidas de prevenção e controle.",
+      "C) Substituir o diagnóstico clínico.",
+      "D) Garantir internação automática.",
+      "E) Divulgar publicamente a identidade do paciente."
+    ],
+    "answer": 1,
+    "explanation": "A vigilância epidemiológica coleta e analisa dados para recomendar e avaliar medidas de prevenção e controle. A notificação segue prazos e fluxos normativos, preservando sigilo e confidencialidade.",
+    "source": "Autoral · Residência Tracker"
+  },
+  {
+    "id": "RT028",
+    "area": "Clínica Médica",
+    "topic": "Anemia microcítica",
+    "difficulty": "Média",
+    "stem": "Mulher de 38 anos apresenta fadiga e menorragia. Hemograma: Hb 9,6 g/dL, VCM 70 fL, RDW aumentado. Ferritina baixa. Qual diagnóstico é mais provável?",
+    "options": [
+      "A) Anemia ferropriva.",
+      "B) Anemia megaloblástica.",
+      "C) Anemia hemolítica autoimune.",
+      "D) Anemia aplástica.",
+      "E) Anemia falciforme."
+    ],
+    "answer": 0,
+    "explanation": "Microcitose, RDW aumentado e ferritina baixa em paciente com perda menstrual sugerem fortemente deficiência de ferro. Deve-se investigar e tratar a causa da perda, além de repor ferro.",
+    "source": "Autoral · Residência Tracker"
+  },
+  {
+    "id": "RT029",
+    "area": "Cirurgia",
+    "topic": "Pancreatite aguda",
+    "difficulty": "Média",
+    "stem": "Homem de 45 anos apresenta dor epigástrica intensa irradiada para dorso e lipase sérica 5 vezes o limite superior. Qual conjunto de critérios é suficiente para diagnóstico de pancreatite aguda?",
+    "options": [
+      "A) Dor típica isoladamente.",
+      "B) Dois de três: dor típica, enzimas pancreáticas >3 vezes o limite superior e imagem característica.",
+      "C) Amilase elevada em qualquer grau obrigatoriamente associada à tomografia.",
+      "D) Febre e leucocitose.",
+      "E) Icterícia e colúria."
+    ],
+    "answer": 1,
+    "explanation": "O diagnóstico é estabelecido quando pelo menos dois de três critérios estão presentes: dor abdominal típica, amilase/lipase >3 vezes o limite superior ou imagem compatível. Lipase é geralmente preferida.",
+    "source": "Autoral · Residência Tracker"
+  },
+  {
+    "id": "RT030",
+    "area": "Pediatria",
+    "topic": "Icterícia neonatal",
+    "difficulty": "Média",
+    "stem": "Recém-nascido a termo, com 36 horas de vida, apresenta icterícia visível. Qual é a conduta inicial mais adequada?",
+    "options": [
+      "A) Considerar fisiológica sem medir bilirrubina.",
+      "B) Dosar bilirrubina e interpretar conforme idade em horas, idade gestacional e fatores de risco.",
+      "C) Iniciar fototerapia em qualquer icterícia.",
+      "D) Suspender aleitamento materno.",
+      "E) Solicitar exsanguineotransfusão imediatamente."
+    ],
+    "answer": 1,
+    "explanation": "Icterícia nas primeiras 24 horas é sempre patológica; após esse período, a decisão depende da bilirrubina total, idade em horas, idade gestacional e fatores de neurotoxicidade, usando nomogramas/protocolos atualizados.",
+    "source": "Autoral · Residência Tracker"
+  },
+  {
+    "id": "RT031",
+    "area": "Ginecologia e Obstetrícia",
+    "topic": "Trabalho de parto",
+    "difficulty": "Fácil",
+    "stem": "Gestante a termo, em trabalho de parto, apresenta dilatação cervical de 6 cm, contrações regulares e progressão documentada. Qual fase do trabalho de parto está em curso?",
+    "options": [
+      "A) Período premonitório.",
+      "B) Primeiro período, fase ativa.",
+      "C) Segundo período expulsivo.",
+      "D) Terceiro período dequitação.",
+      "E) Quarto período de Greenberg."
+    ],
+    "answer": 1,
+    "explanation": "O primeiro período vai do início do trabalho de parto até a dilatação completa. A fase ativa é caracterizada por progressão da dilatação; critérios atuais variam entre diretrizes, frequentemente considerando início a partir de 5–6 cm.",
+    "source": "Autoral · Residência Tracker"
+  },
+  {
+    "id": "RT032",
+    "area": "Preventiva",
+    "topic": "Estudos epidemiológicos",
+    "difficulty": "Média",
+    "stem": "Pesquisadores selecionam pessoas com câncer de pulmão e pessoas sem câncer e investigam retrospectivamente a exposição prévia ao tabaco. Qual desenho é mais provável?",
+    "options": [
+      "A) Coorte prospectiva.",
+      "B) Ensaio clínico randomizado.",
+      "C) Caso-controle.",
+      "D) Estudo ecológico.",
+      "E) Série temporal interrompida."
+    ],
+    "answer": 2,
+    "explanation": "No caso-controle, participantes são selecionados segundo o desfecho (casos e controles) e a exposição prévia é investigada. A medida de associação típica é odds ratio.",
+    "source": "Autoral · Residência Tracker"
+  }
+]

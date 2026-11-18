@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101827">
+  <meta name="description" content="Planner inteligente de estudos para residência médica — SCMRP e USP-RP.">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <title>Residência Tracker</title>
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand"><div class="brand-mark">RT</div><div><strong>Residência Tracker</strong><small>Ciclo 2027</small></div></div>
+    <nav>
+      <button class="nav-link active" data-view="inicio">▦ <span>Visão geral</span></button>
+      <button class="nav-link" data-view="planner">▣ <span>Planner</span></button>
+      <button class="nav-link" data-view="cronometro">◷ <span>Cronômetro</span></button>
+      <button class="nav-link" data-view="desempenho">⌁ <span>Desempenho</span></button>
+      <button class="nav-link" data-view="assuntos">☷ <span>Assuntos</span></button>
+      <button class="nav-link" data-view="questoes">✎ <span>Banco de questões</span></button>
+    </nav>
+    <div class="sidebar-bottom"><span class="dot"></span> Dados salvos neste dispositivo</div>
+  </aside>
+  <main class="main">
+    <header class="topbar">
+      <div><div class="eyebrow">PREPARAÇÃO PARA RESIDÊNCIA MÉDICA</div><h1 id="page-title">Visão geral</h1></div>
+      <div class="top-actions"><span class="cycle-pill">CICLO 2027</span><button class="avatar" title="Perfil">E</button></div>
+    </header>
+
+    <section class="view active" id="view-inicio">
+      <div class="welcome"><div><div class="eyebrow light">SEU PROGRESSO, UM DIA DE CADA VEZ</div><h2>Vamos avançar hoje.</h2><p>Quatro horas líquidas por dia. Consistência acima de intensidade.</p></div><div class="welcome-icon">✦</div></div>
+      <div class="stats-grid">
+        <article class="stat-card"><span>Horas líquidas hoje</span><strong id="today-hours">0h 00min</strong><small>Meta diária: 4h</small><div class="progress"><i id="today-progress"></i></div></article>
+        <article class="stat-card"><span>Total acumulado</span><strong id="total-hours">0h 00min</strong><small>Desde o início do acompanhamento</small></article>
+        <article class="stat-card"><span>Questões resolvidas</span><strong id="total-questions">0</strong><small id="accuracy-label">Registre questões para acompanhar</small></article>
+        <article class="stat-card"><span>Revisões pendentes</span><strong id="pending-reviews">0</strong><small>Revisões com vencimento até hoje</small></article>
+      </div>
+      <div class="content-grid">
+        <article class="panel"><div class="panel-heading"><div><h3>Plano de hoje</h3><p>Organize suas sessões de estudo</p></div><button class="text-button" data-go="planner">Ver planner →</button></div><div id="today-plan" class="task-list empty">Nenhuma tarefa planejada para hoje.</div></article>
+        <article class="panel"><div class="panel-heading"><div><h3>Distribuição por grande área</h3><p>Horas registradas</p></div></div><div id="area-chart" class="area-chart"><p class="empty">Seus dados aparecerão aqui conforme você estudar.</p></div></article>
+      </div>
+      <article class="panel"><div class="panel-heading"><div><h3>Próximas revisões</h3><p>Reforce o conteúdo no momento certo</p></div><button class="text-button" data-go="assuntos">Ver assuntos →</button></div><div id="review-list" class="task-list empty">Nenhuma revisão cadastrada.</div></article>
+    </section>
+
+    <section class="view" id="view-planner">
+      <div class="section-intro"><div><h2>Seu planejamento</h2><p>Monte uma rotina equilibrada entre teoria, questões e revisões.</p></div><button class="primary" id="add-task-open">＋ Nova tarefa</button></div>
+      <div class="panel">
+        <div class="panel-heading"><div><h3>Tarefas de estudo</h3><p>As tarefas ficam salvas neste dispositivo.</p></div><input type="date" id="filter-date"></div>
+        <div id="planner-list" class="task-list empty">Nenhuma tarefa cadastrada.</div>
+      </div>
+      <div class="panel form-panel" id="task-form-panel" hidden>
+        <h3>Adicionar tarefa</h3>
+        <form id="task-form" class="form-grid">
+          <label>Assunto<input required name="topic" placeholder="Ex.: Pré-eclâmpsia"></label>
+          <label>Grande área<select name="area"><option>Clínica Médica</option><option>Cirurgia</option><option>Pediatria</option><option>Ginecologia e Obstetrícia</option><option>Preventiva</option></select></label>
+          <label>Tipo de estudo<select name="kind"><option>Teoria</option><option>Questões</option><option>Revisão</option></select></label>
+          <label>Data<input required type="date" name="date"></label>
+          <label>Tempo previsto (minutos)<input type="number" min="5" step="5" value="60" name="minutes"></label>
+          <div class="form-actions"><button type="button" class="secondary" id="task-cancel">Cancelar</button><button class="primary">Salvar tarefa</button></div>
+        </form>
+      </div>
+    </section>
+
+    <section class="view" id="view-cronometro">
+      <div class="timer-layout">
+        <article class="panel timer-panel">
+          <div class="eyebrow">SESSÃO DE ESTUDO</div><h2>Tempo líquido</h2>
+          <div class="timer" id="timer-display">00:00:00</div>
+          <div class="timer-state" id="timer-state">Pronto para começar</div>
+          <div class="timer-controls"><button class="primary large" id="timer-start">▶ Iniciar</button><button class="secondary large" id="timer-pause" disabled>Ⅱ Pausar</button><button class="danger large" id="timer-finish" disabled>■ Finalizar</button></div>
+          <div class="timer-meta"><span>Meta diária</span><strong>04:00:00</strong></div>
+        </article>
+        <article class="panel">
+          <h3>Identifique sua sessão</h3><p class="muted">Selecione o conteúdo antes de iniciar o cronômetro.</p>
+          <form id="session-form" class="stack-form">
+            <label>Grande área<select id="session-area"><option>Clínica Médica</option><option>Cirurgia</option><option>Pediatria</option><option>Ginecologia e Obstetrícia</option><option>Preventiva</option></select></label>
+            <label>Assunto<input id="session-topic" placeholder="Ex.: Insuficiência cardíaca"></label>
+            <label>Tipo<select id="session-kind"><option>Teoria</option><option>Questões</option><option>Revisão</option></select></label>
+          </form>
+          <div class="notice">O tempo é contabilizado enquanto a sessão estiver em andamento. Ao pausar, a contagem é interrompida. Se fechar a página durante uma sessão, o cronômetro poderá ser retomado.</div>
+        </article>
+      </div>
+      <article class="panel"><h3>Últimas sessões</h3><div id="session-history" class="task-list empty">Nenhuma sessão registrada.</div></article>
+    </section>
+
+    <section class="view" id="view-desempenho">
+      <div class="section-intro"><div><h2>Desempenho</h2><p>Acompanhe sua evolução em questões e horas líquidas.</p></div><button class="primary" id="add-questions-open">＋ Registrar questões</button></div>
+      <div class="stats-grid compact">
+        <article class="stat-card"><span>Questões feitas</span><strong id="perf-total">0</strong></article>
+        <article class="stat-card"><span>Acertos</span><strong id="perf-correct">0</strong></article>
+        <article class="stat-card"><span>Taxa de acerto</span><strong id="perf-rate">—</strong></article>
+      </div>
+      <article class="panel form-panel" id="question-form-panel" hidden><h3>Registrar desempenho</h3><form id="question-form" class="form-grid">
+        <label>Instituição<select name="institution"><option>SCMRP</option><option>USP-RP</option><option>Outra / banco geral</option></select></label>
+        <label>Grande área<select name="area"><option>Clínica Médica</option><option>Cirurgia</option><option>Pediatria</option><option>Ginecologia e Obstetrícia</option><option>Preventiva</option></select></label>
+        <label>Assunto<input required name="topic" placeholder="Ex.: Sepse"></label>
+        <label>Questões resolvidas<input required type="number" min="1" name="total"></label>
+        <label>Acertos<input required type="number" min="0" name="correct"></label>
+        <div class="form-actions"><button type="button" class="secondary" id="question-cancel">Cancelar</button><button class="primary">Salvar registro</button></div>
+      </form></article>
+      <article class="panel"><div class="panel-heading"><div><h3>Desempenho por assunto</h3><p>Baseado nos registros que você inserir.</p></div></div><div id="topic-performance" class="task-list empty">Registre questões para visualizar seu desempenho.</div></article>
+    </section>
+
+    <section class="view" id="view-assuntos">
+      <div class="section-intro"><div><h2>Banco de assuntos</h2><p>Organize os temas e acompanhe as revisões programadas.</p></div><button class="primary" id="add-topic-open">＋ Novo assunto</button></div>
+      <article class="panel form-panel" id="topic-form-panel" hidden><h3>Cadastrar assunto</h3><form id="topic-form" class="form-grid">
+        <label>Assunto<input required name="topic" placeholder="Ex.: Pré-eclâmpsia"></label>
+        <label>Grande área<select name="area"><option>Clínica Médica</option><option>Cirurgia</option><option>Pediatria</option><option>Ginecologia e Obstetrícia</option><option>Preventiva</option></select></label>
+        <label>Prioridade inicial<select name="priority"><option>Alta</option><option selected>Média</option><option>Baixa</option></select></label>
+        <label>Instituição<select name="institution"><option>Ambas</option><option>SCMRP</option><option>USP-RP</option></select></label>
+        <div class="form-actions"><button type="button" class="secondary" id="topic-cancel">Cancelar</button><button class="primary">Salvar assunto</button></div>
+      </form></article>
+      <article class="panel"><div class="panel-heading"><div><h3>Assuntos cadastrados</h3><p>Prioridade manual inicial; incidência histórica será adicionada após análise das provas.</p></div></div><div id="topic-list" class="task-list empty">Nenhum assunto cadastrado.</div></article>
+      <article class="panel"><h3>Como será calculada a incidência?</h3><p class="muted">Cada questão de prova será vinculada a instituição, ano, grande área, assunto e subassunto. A frequência será calculada com base nas provas efetivamente catalogadas. Até a importação e classificação dessas provas, o aplicativo não exibirá percentuais históricos fictícios.</p></article>
+    </section>
+    <section class="view" id="view-questoes">
+      <div class="section-intro"><div><h2>Banco de questões autorais</h2><p>Questões inéditas no estilo de provas de acesso direto, com comentários e registro de desempenho.</p></div><span class="cycle-pill">32 QUESTÕES</span></div>
+      <div class="quiz-toolbar panel">
+        <label>Grande área<select id="quiz-area"><option value="Todas">Todas as áreas</option><option>Clínica Médica</option><option>Cirurgia</option><option>Pediatria</option><option>Ginecologia e Obstetrícia</option><option>Preventiva</option></select></label>
+        <label>Registrar como<select id="quiz-institution"><option>Banco geral</option><option>SCMRP</option><option>USP-RP</option></select></label>
+        <button class="primary" id="quiz-start">＋ Iniciar questões</button><button class="secondary" id="quiz-simulado">Simulado de 10</button>
+      </div>
+      <div class="panel quiz-panel" id="quiz-panel"><div class="empty">Escolha uma grande área ou inicie um simulado para começar.</div></div>
+      <div class="panel"><div class="panel-heading"><div><h3>Seu histórico no banco autoral</h3><p>Acertos registrados ao responder às questões.</p></div></div><div class="stats-grid compact"><article class="stat-card"><span>Respondidas</span><strong id="quiz-done">0</strong></article><article class="stat-card"><span>Acertos</span><strong id="quiz-correct">0</strong></article><article class="stat-card"><span>Aproveitamento</span><strong id="quiz-rate">—</strong></article></div></div>
+      <article class="panel"><h3>Sobre este banco</h3><p class="muted">Questões criadas para estudo, inspiradas em temas e formatos observados nas provas SCMRP 2026 e USP-RP 2024 enviadas. Não são questões oficiais, não reproduzem enunciados dessas provas e não representam uma análise estatística de incidência. Conteúdo sujeito a atualização conforme diretrizes clínicas.</p></article>
+    </section>
+    <footer>Residência Tracker · Versão pessoal 1.0 · Dados armazenados localmente neste dispositivo.</footer>
+  </main>
+  <div class="toast" id="toast"></div>
+  <script src="app.js"></script>
+  <script src="quiz.js"></script>
+</body>
+</html>

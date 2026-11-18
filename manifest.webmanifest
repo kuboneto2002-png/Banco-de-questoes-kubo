@@ -1,0 +1,10 @@
+{
+  "name": "Residência Tracker",
+  "short_name": "Residência",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f3f5f8",
+  "theme_color": "#101827",
+  "description": "Planner de estudos para residência médica — ciclo 2027",
+  "icons": []
+}
